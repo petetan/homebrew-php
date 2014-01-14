@@ -2,8 +2,8 @@ require File.join(File.dirname(__FILE__), 'abstract-php')
 
 class Php52 < AbstractPhp
   init
-  url 'http://www.php.net/get/php-5.2.17.tar.bz2/from/this/mirror'
-  sha1 'd68f3b09f766990d815a3c4c63c157db8dab8095'
+  url 'http://museum.php.net/php5/php-5.3.4.tar.bz2'
+  sha1 '0b33926e78e1683e3383b3b5c840ee60ba669b0b'
   version '5.2.17'
 
   head 'https://github.com/php/php-src.git', :branch => 'PHP-5.2'
